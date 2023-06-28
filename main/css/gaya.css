@@ -1,0 +1,286 @@
+body{
+	background: #EBE8E8;
+	font-family: verdana;
+}
+body a{
+	text-decoration: none;
+	color: #117ca9;
+	font-family: verdana;
+}
+body judul{
+	text-decoration: none;
+	color: #1a69b6;
+	font-family: verdana;
+	font-size: 20px;
+}
+body .log_button{
+	cursor: pointer;
+	text-decoration: none;
+	color:white;
+	background: #428bc9;
+	padding: 4px 8px 4px 8px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	border: none;
+	border-radius: 3px;
+	font-family: verdana;
+}
+body .log_button:hover{
+	background: #191970;
+}
+body .log_button:active{
+	color: red;
+}
+hr{
+	border-top: 1px #428bc9;
+	border-style: dotted;
+}
+#panduan{
+	text-decoration:none;
+	color:#fff;
+	font-size:12px;
+	margin-left:10px;
+	transition:0.3s;
+	font-family: verdana;
+}
+#panduan:hover{
+	color: #191970;
+}
+#kepala{
+	width: 100%;
+	top: 0;
+	left: 0;
+	left: 0;
+	position: absolute;
+	font-family: verdana;
+}
+#kepala td{
+	width: 100%;
+	height: 40px;
+	padding: 10px;
+	font-family: verdana;
+}
+#isi_kepala td{
+	width: 50px;
+	font-family: verdana;
+}
+#badan{
+	width: 100%;
+	min-height: 200px;
+	margin-top: 160px;
+	text-align: center;
+	font-size: 13px;
+	font-family: sans-serif;
+}
+#badan div{
+	border-radius: 3px;
+	font-size: 13px;
+	margin-left: 15px;
+	font-family: sans-serif;
+}
+#di_kanan{
+	background: white;
+	float: left;
+	margin: 10px;
+	padding: 20px;
+	margin-bottom: 100px;
+	width: 400px;
+	min-height: 300px;
+	text-align: left;
+	font-family: verdana;
+}
+#di_kanan ul li{
+	font-size: 12px;
+	list-style: circle outside none;
+	font-family: verdana;
+}
+#di_kanan div{
+	margin-bottom: 15px;
+}
+
+#di_kanan .log_input{
+	width: 95%;
+	padding: 5px;
+	transition:0.3s;
+	margin-bottom: 3px;
+	border: 1px solid #117ca9;
+	color: #818281;
+	border-radius: 3px;
+	font-family: verdana;
+}
+#di_kanan .log_input:focus{
+	box-shadow: 0px 0px 2px #117ca9;
+}
+#di_kiri{
+	background: white;
+	float: left;
+	margin-bottom: 50px;
+	text-align: left;
+	margin: 10px;
+	padding: 20px;
+	width: 650px;
+	min-height: 300px;
+	font-family: verdana;
+}
+#hume{
+	background:url(../home.png) no-repeat 2% 35%;
+	padding: 5px;
+	font-family: verdana;
+	float: right;
+	background-size: 20px 20px;
+	font-size: 18px;
+	padding-left: 25px; 
+}
+@media screen and (min-width : 830px) {
+	#di_kanan{
+		width: 25%;
+	}
+	#di_kiri{
+		width: 58%;
+	}
+	#kaki{
+		min-width: 300px;
+		background-color: #191919;
+		color:#AAAAAD;
+		font-size: 10px;
+		padding: 20px;
+		position: fixed;
+		bottom: 70px;
+		right: 0;
+		text-align: center;
+		font-family: verdana;
+		margin-right: -310px;
+		transition:0.1s;
+		border-left:7px solid green;
+		border-bottom-left-radius:5px;
+		border-top-left-radius: 5px; 
+	}
+	#kaki:hover{
+		margin-right: 0px;
+	}
+}
+@media screen and (max-width : 830px) {
+	#kepala{
+		margin-bottom: 10px;
+	}
+	#di_kanan{
+		width: 80%;
+		min-height: 100px;
+		margin-right: 10px;
+	}
+	#di_kiri{
+		width: 80%;
+		min-height: 100px;
+		margin-right: 10px;
+		margin-bottom: 10px;
+	}
+	.kotak{
+		font-size:12px; 
+	}
+	#kaki{
+		min-width: 100%;
+		background: #191919;
+		color:#AAAAAD;
+		font-size: 10px;
+		padding: 10px;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		text-align: center;
+		font-family: verdana;
+	}
+}
+@media screen and (max-width : 670px) {
+	#gambar_atas{
+		float: center;
+		width: 60px;
+		padding: 2px;
+		margin: 2px;
+	}
+	#div_atas captt1{
+		font-size: 20px;
+	}
+	#div_atas captt{
+		font-size: 10px;
+	}
+}
+@media screen and (max-width : 420px) {
+	#badan{
+		margin-top: 220px;
+	}
+	#atas_bawah{
+		text-align: center;
+	}
+	.kotak{
+		width:65%;
+		float: none;
+		display: inline-block;
+	}
+	#gambar_atas{
+		float: center;
+		width: 60px;
+		padding: 2px;
+		margin: 2px;
+	}
+	#div_atas{
+		float: center;
+		text-align: center;
+	}
+	#di_kanan{
+		width: 80%;
+		text-align: center;
+	}
+	#di_kiri{
+		width: 80%;
+	}
+	#div_atas captt1{
+		font-size: 20px;
+	}
+	#div_atas captt{
+		font-size: 10px;
+	}
+	.input{
+		width: 90%;
+	}
+}
+@media screen and (min-width : 420px) {
+	#gambar_atas{
+		float: left;
+	}
+	#div_atas{
+		float: left;
+	}	
+	#div_atas captt1{
+		font-size: 30px;
+	}
+}
+@media screen and (max-width : 1200px) {
+	.kotak{
+		width: 70%;
+		float: none;
+	}
+}
+#tb_uspas{
+	margin-left: 30px;
+}
+#tb_uspas tr{
+	background: aqua;
+	color: #191970;
+	padding: 3px;
+}
+#tb_uspas tr:hover{
+	background: #eee;
+}
+#tb_uspas td{
+	padding: 3px;
+}
+.block{
+	display: inline-block;
+	background: green;
+	color: white; padding: 5px;
+	border-radius: 3px;
+	text-align: center;
+	padding-right: 10px;
+	padding-left: 10px;
+}
